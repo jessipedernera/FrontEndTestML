@@ -1,0 +1,47 @@
+body {
+  background: #f4f4f4;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  min-width: 60em;
+}
+
+header {
+  height: 3.375em;
+  background-color: #fff059;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+main {
+  .product {
+    margin: 0 auto;
+    max-width: 53.125em;
+    padding: 1em;
+    .product--image {
+      display: inline-block;
+      margin: .5em;
+      width: 25em;
+      box-sizing: border-box;
+      vertical-align: top;
+      border: 1px solid #ddd
+    }
+    .product--description {
+      display: inline-block;
+      width: 25em;
+      padding: .5em;
+      box-sizing: border-box;
+      vertical-align: top;
+      .ch-price{
+        font-size: 2em;
+      }
+      div span {
+        display: inline-block;
+        min-width: 5em;
+        vertical-align: middle;
+      }
+    }
+  }
+  h1 {
+    text-align: center;
+  }
+}
