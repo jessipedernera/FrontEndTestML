@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 16px;
-  min-width: 60em;
+  min-width: 61em;
 }
 
 header {
@@ -13,51 +13,71 @@ header {
 }
 
 main {
-  .product {
+  section {
     margin: 0 auto;
     max-width: 62em;
     padding: 1em;
-    .product--image {
-      display: inline-block;
-      margin: .5em;
-      width: 25em;
-      box-sizing: border-box;
-      vertical-align: top;
-      border: 1px solid #ddd
-    }
-    .product--description {
-      display: inline-block;
-      width: 32em;
-      padding: .5em 2em;
-      box-sizing: border-box;
-      vertical-align: top;
-      .ch-price{
-        font-size: 2em;
-      }
-      div span {
+    .product {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 1.5em;
+      .product--image {
         display: inline-block;
-        min-width: 5em;
-        vertical-align: middle;
+        margin: .5em;
+        width: 25em;
+        box-sizing: border-box;
+        vertical-align: top;
+        border: 1px solid #ddd
       }
-      div h3 {
-        z-index: 1009;
+      .product--description {
+        display: inline-block;
+        width: 32em;
+        padding: .5em 2em;
+        box-sizing: border-box;
+        vertical-align: top;
+        .ch-price {
+          font-size: 2em;
+        }
+        div span {
+          display: inline-block;
+          min-width: 5em;
+          vertical-align: middle;
+        }
+        div h3 {
+          z-index: 1009;
+        }
+        .ch-btn {
+          margin: .5em 0;
+        }
+        p {
+          color: #999;
+          font-size: 12px;
+          margin-bottom: 2em;
+        }
+
+        .product--carousel {
+          .ch-carousel-prev {
+            left: -16px;
+          }
+          .ch-carousel-prev, .ch-carousel-next {
+            top: 35%;
+          }
+          .ch-carousel-disabled {
+            display: block;
+            opacity: 0.7;
+            cursor: default;
+          }
+        }
       }
-      .ch-btn {
-        margin: .5em 0;
+    }
+    .product--tab-questions {
+      .product--tab-questions__info {
+        color: #3a87ad;
+      }
+      .product--tab-questions__ok {
+        color: #468847;
       }
       p {
-        color: #999;
-        font-size: 12px;
-        margin-bottom: 2em;
-      }
-
-      .product--description__carousel {
-        .ch-carousel-prev {
-          left: -16px;
-        }
-        .ch-carousel-prev, .ch-carousel-next {
-          top: 35%;
-        }
+        padding-left: 2.5em;
       }
     }
   }

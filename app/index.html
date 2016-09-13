@@ -27,63 +27,68 @@
 
 <header></header>
 <main>
-    <section class="product">
-        <h1>Ipad Mini Apple 16 GB Wifi Led 7.9</h1>
-        <img class="product--image" src="images/iPadApple.JPG" alt="">
-        <div class="product--description">
-            <h3 class="ch-price"><strong>$4799<sup>99</sup></strong></h3>
-            <div>
-                <span>Quantity</span>
-                <h3 class="demo-dropdown1">1</h3>
-                <menu label="Links" class="ch-hide">
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                </menu>
-            </div>
-            <div>
-                <span>Payments</span>
-                <h3 class="demo-dropdown2">1</h3>
-                <menu label="Links" class="ch-hide">
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">6</a></li>
-                    <li><a href="#">9</a></li>
-                    <li><a href="#">12</a></li>
-                </menu>
-            </div>
-            <input type="button" class="ch-btn" value="Button">
-            <p>MercadoLibre isn't the owner of this product.</p>
-            <div class="product--description__carousel">
-                <h4>More products like this</h4>
-                <div class="demo-carousel ch-carousel">
-                    <ul>
-                        <li><img src="images/iPad(1).jpg"></li>
-                        <li><img src="images/iPad(2).jpg"></li>
-                        <li><img src="images/iPad(3).jpg"></li>
-                        <li><img src="images/iPad(4).jpg"></li>
-                        <li><img src="images/iPad(5).jpg"></li>
-                        <li><img src="images/iPad(6).jpg"></li>
-                        <li><img src="images/iPad(7).jpg"></li>
-                        <li><img src="images/iPad(8).jpg"></li>
-                        <li><img src="images/iPad(9).jpg"></li>
-                    </ul>
+    <section>
+        <div class="product">
+            <h1>Ipad Mini Apple 16 GB Wifi Led 7.9</h1>
+            <img class="product--image" src="images/iPadApple.JPG" alt="">
+            <div class="product--description">
+                <h3 class="ch-price"><strong>$4799<sup>99</sup></strong></h3>
+                <div class="ch-form-row">
+                    <span>Quantity</span>
+                    <select id="select1">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div class="ch-form-row">
+                    <span>Payments</span>
+                    <select id="select2">
+                        <option value="1">1</option>
+                        <option value="2">3</option>
+                        <option value="3">6</option>
+                        <option value="4">9</option>
+                        <option value="4" selected>12</option>
+                    </select>
+                </div>
+                <input type="button" class="ch-btn" value="Button">
+                <p>MercadoLibre isn't the owner of this product.</p>
+                <div class="product--carousel">
+                    <h4>More products like this</h4>
+                    <div class="demo-carousel ch-carousel">
+                        <ul>
+                            <li><img src="images/iPad(1).jpg"></li>
+                            <li><img src="images/iPad(2).jpg"></li>
+                            <li><img src="images/iPad(3).jpg"></li>
+                            <li><img src="images/iPad(4).jpg"></li>
+                            <li><img src="images/iPad(5).jpg"></li>
+                            <li><img src="images/iPad(6).jpg"></li>
+                            <li><img src="images/iPad(7).jpg"></li>
+                            <li><img src="images/iPad(8).jpg"></li>
+                            <li><img src="images/iPad(9).jpg"></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="product--description__tab-questions">
+        <div class="product--tab-questions">
             <div class="demo-tabs ch-tabs">
                 <ul class="ch-tabs-triggers">
-                    <li><a href="#tab1-a" class="ch-tab">Tab1</a></li>
-                    <li><a href="#tab2-a" class="ch-tab">Tab2</a></li>
+                    <li><a href="#tab1-a" class="ch-tab">Product Description</a></li>
+                    <li><a href="#tab2-a" class="ch-tab ch-expandable-trigger-on">Questions</a></li>
                 </ul>
                 <div class="ch-box-lite">
-                    <div id="tab1-a">
-                        <p></p>
-                    </div>
+                    <div id="tab1-a"></div>
                     <div id="tab2-a">
-                        <p></p>
+                        <h3 class="product--tab-questions__info">Buyer</h3>
+                        <div class="ch-box-info">
+                            <p>Do you have this one in white?</p>
+                        </div>
+                        <h3 class="product--tab-questions__ok">Seller</h3>
+                        <div class="ch-box-ok">
+                            <p>No I don't, I only have black</p>
+                        </div>
                     </div>
                 </div>
             </div>
