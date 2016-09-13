@@ -1,5 +1,9 @@
 {
   "name": "mercadolibre",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "chico": "^2.0.7",
+    "tiny.js": "^0.4.0"
+  }
 }
