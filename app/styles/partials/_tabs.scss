@@ -37,11 +37,11 @@
     border-radius: 0;
     min-height: 10em;
     position: relative;
-    #product--tab-content__description {
+    #product--tab-content-tab-1 {
       padding: 3em 0;
     }
-    #product--tab-content__description,
-    #product--tab-content__questions {
+    #product--tab-content-tab-1,
+    #product--tab-content-tab-2 {
       opacity: 0;
       position: absolute;
       width: 98%;
@@ -58,8 +58,8 @@
   }
 
   .product--tab-container input#tab-1:checked ~
-  .product--tab-content #product--tab-content__description,
+  .product--tab-content #product--tab-content-tab-1,
   .product--tab-container input#tab-2:checked ~
-  .product--tab-content #product--tab-content__questions {
+  .product--tab-content #product--tab-content-tab-2 {
     opacity: 1;
   }
