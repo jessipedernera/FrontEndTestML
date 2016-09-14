@@ -41,16 +41,3 @@ function setInputAria(id) {
     selectedTab.setAttribute('aria-selected', 'true')
     selectedContent.removeAttribute('aria-hidden')
 }
-
-
-
-
-
-
-labelTabA.click(function () {
-        console.log(inputTabA)
-})
-
-labelTabB.click(function () {
-        console.log(inputTabB)
-})
