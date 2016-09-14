@@ -4,6 +4,6 @@
   "dependencies": {},
   "devDependencies": {
     "chico": "^2.0.7",
-    "tiny.js": "^0.4.0"
+    "tiny.js": "^0.1.8"
   }
 }

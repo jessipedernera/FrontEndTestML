@@ -50,33 +50,9 @@ main {
           font-size: 12px;
           margin-bottom: 2em;
         }
+      }
+    }
 
-        .product--carousel {
-          .ch-carousel-prev {
-            left: -16px;
-          }
-          .ch-carousel-prev, .ch-carousel-next {
-            top: 35%;
-          }
-          .ch-carousel-disabled {
-            display: block;
-            opacity: 0.7;
-            cursor: default;
-          }
-        }
-      }
-    }
-    .product--tab-questions {
-      .product--tab-questions__info {
-        color: #3a87ad;
-      }
-      .product--tab-questions__ok {
-        color: #468847;
-      }
-      p {
-        padding-left: 2.5em;
-      }
-    }
   }
   h1 {
     text-align: center;

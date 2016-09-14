@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="">
 <head>
     <meta charset="utf-8">
@@ -21,16 +21,6 @@
 
 </head>
 <body>
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6"> <![endif]-->
-<!--[if IE 7]>	<html class="no-js  lt-ie10 lt-ie9 lt-ie8 ie7"> <![endif]-->
-<!--[if IE 8]>	<html class="no-js lt-ie10 lt-ie9 ie8"> <![endif]-->
-<!--[if IE 9]>	<html class="no-js lt-ie10 ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<!--[if lt IE 10]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
-
 <header></header>
 <main>
     <section>
@@ -78,15 +68,20 @@
                 </div>
             </div>
         </div>
-        <div class="product--tab-questions">
-            <div class="demo-tabs ch-tabs">
-                <ul class="ch-tabs-triggers">
-                    <li><a href="#tab1-a" class="ch-tab">Product Description</a></li>
-                    <li><a href="#tab2-a" class="ch-tab ch-expandable-trigger-on">Questions</a></li>
-                </ul>
-                <div class="ch-box-lite">
-                    <div id="tab1-a"></div>
-                    <div id="tab2-a">
+        <div>
+            <div class="product--tab-container">
+                <input id="tab-1" type="radio" name="tab-group"/>
+                <label for="tab-1" class="first-label">Product Description</label>
+                <input id="tab-2" type="radio" name="tab-group" checked="checked" />
+                <label for="tab-2">Questions</label>
+                <div class="product--tab-content ch-box-lite" >
+                    <div id="product--tab-content__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, est,
+                            nisi enim voluptates dicta quibusdam recusandae eveniet provident non
+                            at nostrum nesciunt laudantium omnis aliquam debitis magni expedita
+                            cumque tempore.</p>
+                    </div>
+                    <div id="product--tab-content__questions">
                         <h3 class="product--tab-questions__info">Buyer</h3>
                         <div class="ch-box-info">
                             <p>Do you have this one in white?</p>

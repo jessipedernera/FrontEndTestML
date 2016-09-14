@@ -1,0 +1,13 @@
+.product--carousel {
+  .ch-carousel-prev {
+    left: -16px;
+  }
+  .ch-carousel-prev, .ch-carousel-next {
+    top: 35%;
+  }
+  .ch-carousel-disabled {
+    display: block;
+    opacity: 0.7;
+    cursor: default;
+  }
+}
