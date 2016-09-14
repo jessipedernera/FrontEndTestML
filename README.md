@@ -12,5 +12,17 @@ $ git clone [repository] (https://github.com/jessipedernera/FrontEndTestML.git)
 $ cd FrontEndTestML
 $ npm install
 $ bower install
+$ gulp build
+$ gulp serve:dist
+```
+
+### Development
+
+Install the dependencies and devDependencies and start the server.
+```sh
+$ git clone [repository] (https://github.com/jessipedernera/FrontEndTestML.git)
+$ cd FrontEndTestML
+$ npm install
+$ bower install
 $ gulp serve
 ```
