@@ -2,7 +2,6 @@ var carousel = new ch.Carousel(ch('.demo-carousel')[0], {
     autoMargin: false
 });
 
-
 // ARIA states
 
 var selectQuantity = document.getElementsByTagName('select')[0];
